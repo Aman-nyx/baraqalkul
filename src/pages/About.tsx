@@ -159,7 +159,7 @@ const VisionMission: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">
                 <img
-                  src="https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg"
+                  src="https://images.pexels.com/photos/6196677/pexels-photo-6196677.jpeg"
                   alt="Mission-driven industrial safety and quality standards in UAE"
                   className="w-full h-80 object-cover rounded-xl shadow-lg"
                 />

@@ -30,7 +30,7 @@ const Home: React.FC = () => {
     {
       title: "Safety & PPE Materials",
       description: "Complete range of personal protective equipment",
-      image: "https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg"
+      image: "https://images.pexels.com/photos/6196677/pexels-photo-6196677.jpeg "
     },
     {
       title: "Fasteners & Fittings",
@@ -40,7 +40,7 @@ const Home: React.FC = () => {
     {
       title: "Power & Hand Tools",
       description: "Professional tools from leading brands",
-      image: "https://images.pexels.com/photos/1125137/pexels-photo-1125137.jpeg"
+      image: "https://images.pexels.com/photos/11398216/pexels-photo-11398216.jpeg"
     }
   ];
 

@@ -52,14 +52,15 @@ const Products: React.FC = () => {
       title: "Safety & PPE Materials",
       description: "Complete personal protective equipment for industrial safety",
       items: [
-        { name: "Safety Helmets & Hard Hats", image: "https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg" },
-        { name: "Work Gloves & Safety Gloves", image: "https://images.pexels.com/photos/5691659/pexels-photo-5691659.jpeg" },
-        { name: "Safety Shoes & Boots", image: "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg" },
-        { name: "High-Visibility Vests", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
-        { name: "Safety Coveralls", image: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg" },
-        { name: "Eye Protection & Safety Glasses", image: "https://images.pexels.com/photos/5691728/pexels-photo-5691728.jpeg" },
-        { name: "Ear Protection Equipment", image: "https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg" },
-        { name: "Respiratory Protection", image: "https://images.pexels.com/photos/4099467/pexels-photo-4099467.jpeg" }
+        { name: "Safety Helmets ", image: "https://images.pexels.com/photos/8488037/pexels-photo-8488037.jpeg" },
+        { name: "Safety Gloves", image: "https://images.pexels.com/photos/8487733/pexels-photo-8487733.jpeg" },
+        { name: "Safety Shoes & Boots", image: "https://images.pexels.com/photos/10433248/pexels-photo-10433248.jpeg" },
+        { name: "Vests & Safety Coveralls", image: "https://images.pexels.com/photos/8961007/pexels-photo-8961007.jpeg" },
+        //{ name: "Safety Coveralls", image: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg" },
+        { name: "Eye & Ear Protection", image: "https://images.pexels.com/photos/9242291/pexels-photo-9242291.jpeg" },
+       // { name: "Ear Protection Equipment", image: "https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg" },
+        { name: "Respiratory Protection", image: "https://images.pexels.com/photos/7959342/pexels-photo-7959342.jpeg" },
+        { name: "And many more", image: "https://images.pexels.com/photos/30445637/pexels-photo-30445637.png" }
       ],
       mainImage: "https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg"
     },
@@ -68,14 +69,14 @@ const Products: React.FC = () => {
       title: "Fasteners & Fittings",
       description: "High-grade fastening solutions for industrial applications",
       items: [
-        { name: "Nuts, Bolts & Washers", image: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg" },
-        { name: "Anchors & Fixing Systems", image: "https://images.pexels.com/photos/1125137/pexels-photo-1125137.jpeg" },
-        { name: "Stainless Steel Fasteners", image: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg" },
-        { name: "Galvanized Fasteners", image: "https://images.pexels.com/photos/1125137/pexels-photo-1125137.jpeg" },
-        { name: "Specialized Industrial Fasteners", image: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg" },
-        { name: "Threaded Rods & Studs", image: "https://images.pexels.com/photos/1125137/pexels-photo-1125137.jpeg" },
-        { name: "Rivets & Clips", image: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg" },
-        { name: "and Many More", image: "https://images.pexels.com/photos/4099467/pexels-photo-4099467.jpeg" }
+        { name: "Nuts, Bolts & Washers", image: "https://images.pexels.com/photos/5853930/pexels-photo-5853930.jpeg" },
+        { name: "Anchors ", image: "https://images.pexels.com/photos/17485780/pexels-photo-17485780.jpeg" },
+        { name: "Stainless steel & galvanized options", image: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg" },
+       // { name: "Galvanized Fasteners", image: "https://images.pexels.com/photos/1125137/pexels-photo-1125137.jpeg" },
+       // { name: "Specialized Industrial Fasteners", image: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg" },
+       // { name: "Threaded Rods & Studs", image: "https://images.pexels.com/photos/1125137/pexels-photo-1125137.jpeg" },
+        //{ name: "Rivets & Clips", image: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg" },
+        { name: "And Many More", image: "https://images.pexels.com/photos/30445637/pexels-photo-30445637.png" }
       ],
       mainImage: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg"
     },
@@ -84,14 +85,14 @@ const Products: React.FC = () => {
       title: "Electrical Supplies",
       description: "Comprehensive electrical components and systems",
       items: [
-        { name: "Industrial Cables & Wiring", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
-        { name: "Switches & Control Devices", image: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg" },
-        { name: "Industrial Lighting Solutions", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
-        { name: "Conduits & Cable Management", image: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg" },
-        { name: "Electrical Panels & Enclosures", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
-        { name: "Motors & Drives", image: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg" },
+        { name: "Industrial Cables & Wiring", image: "https://images.unsplash.com/photo-1625276254563-f0fbbf66a5e7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+        { name: "Switches & Control Devices", image: "https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg" },
+        { name: "Industrial Lighting Solutions", image: "https://images.pexels.com/photos/9201898/pexels-photo-9201898.jpeg" },
+        { name: "Conduits & Cable Management", image: "https://eepower.com/uploads/articles/CIS_Figure_1.png" },
+       // { name: "Electrical Panels & Enclosures", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
+       // { name: "Motors & Drives", image: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg" },
         { name: "Industrial Electrical Accessories", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
-        { name: "and Many More", image: "https://images.pexels.com/photos/4099467/pexels-photo-4099467.jpeg" }
+        { name: "And Many More", image: "https://images.pexels.com/photos/30445637/pexels-photo-30445637.png" }
       ],
       mainImage: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg"
     },
@@ -100,14 +101,14 @@ const Products: React.FC = () => {
       title: "Plumbing & Pipe Fittings",
       description: "Complete piping solutions for industrial systems",
       items: [
-        { name: "PVC & CPVC Fittings", image: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg" },
-        { name: "GI (Galvanized Iron) Fittings", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
-        { name: "Stainless Steel Pipe Fittings", image: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg" },
-        { name: "Industrial Valves & Controls", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
-        { name: "Pipe Couplings & Adapters", image: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg" },
-        { name: "Industrial Hoses & Tubes", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
-        { name: "Gaskets & Sealing Materials", image: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg" },
-        { name: "and Many More", image: "https://images.pexels.com/photos/4099467/pexels-photo-4099467.jpeg" }
+        { name: "PVC, CPVC, GI, SS fittings", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfA14IHfFVCipxL-tKFJOvbzUdwRZ7pzl_8g&s" },
+        //{ name: "GI (Galvanized Iron) Fittings", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
+        //{ name: "Stainless Steel Pipe Fittings", image: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg" },
+        { name: "Industrial Valves, Couplings & Adapters", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
+        //{ name: "Pipe Couplings & Adapters", image: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg" },
+        //{ name: "Industrial Hoses & Tubes", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
+       // { name: "Gaskets & Sealing Materials", image: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg" },
+        { name: "And Many More", image: "https://images.pexels.com/photos/30445637/pexels-photo-30445637.png" }
       ],
       mainImage: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg"
     },
@@ -116,14 +117,14 @@ const Products: React.FC = () => {
       title: "Architectural Materials",
       description: "Quality finishing materials for construction projects",
       items: [
-        { name: "Architectural Hardware", image: "https://images.pexels.com/photos/8090054/pexels-photo-8090054.jpeg" },
-        { name: "Building Panels & Sheets", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
-        { name: "Sealing & Weatherproofing", image: "https://images.pexels.com/photos/8090054/pexels-photo-8090054.jpeg" },
-        { name: "Door & Window Fittings", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
-        { name: "Decorative Fixtures", image: "https://images.pexels.com/photos/8090054/pexels-photo-8090054.jpeg" },
-        { name: "Structural Components", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
-        { name: "Building Maintenance Supplies", image: "https://images.pexels.com/photos/8090054/pexels-photo-8090054.jpeg" },
-        { name: "and Many More", image: "https://images.pexels.com/photos/4099467/pexels-photo-4099467.jpeg" }
+        { name: "Architectural Hardware", image: "https://images.pexels.com/photos/8487343/pexels-photo-8487343.jpeg" },
+        { name: "Building Panels & Sheets", image: "https://images.pexels.com/photos/5089122/pexels-photo-5089122.jpeg" },
+        { name: "Sealing & Weatherproofing", image: "https://images.pexels.com/photos/1915182/pexels-photo-1915182.jpeg" },
+       // { name: "Door & Window Fittings", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
+       // { name: "Decorative Fixtures", image: "https://images.pexels.com/photos/8090054/pexels-photo-8090054.jpeg" },
+        { name: "Commercial-grade fittings and fixtures", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
+       // { name: "Building Maintenance Supplies", image: "https://images.pexels.com/photos/8090054/pexels-photo-8090054.jpeg" },
+        { name: "And Many More", image: "https://images.pexels.com/photos/30445637/pexels-photo-30445637.png" }
       ],
       mainImage: "https://images.pexels.com/photos/8090054/pexels-photo-8090054.jpeg"
     },
@@ -132,14 +133,14 @@ const Products: React.FC = () => {
       title: "Power & Hand Tools",
       description: "Professional tools from leading international brands",
       items: [
-        { name: "Bosch Professional Tools", image: "https://images.pexels.com/photos/1125137/pexels-photo-1125137.jpeg" },
-        { name: "Makita Power Tools", image: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg" },
-        { name: "Dewalt Industrial Tools", image: "https://images.pexels.com/photos/1125137/pexels-photo-1125137.jpeg" },
-        { name: "Hand Tools - Wrenches & Screwdrivers", image: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg" },
-        { name: "Hammers & Striking Tools", image: "https://images.pexels.com/photos/1125137/pexels-photo-1125137.jpeg" },
-        { name: "Electric Drills & Drivers", image: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg" },
-        { name: "Measuring & Testing Equipment", image: "https://images.pexels.com/photos/1125137/pexels-photo-1125137.jpeg" },
-        { name: "and Many More", image: "https://images.pexels.com/photos/4099467/pexels-photo-4099467.jpeg" }
+        { name: "Professional Tools(Bosch, Makita, Dewalt, etc)", image: "https://www.bosch-pt.com.my/my/media/professional/specials/highlights/18v_mpp/overview/m56_10/m56_overview_rtb_100_compatibility_991x557.jpg" },
+       // { name: "Makita Power Tools", image: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg" },
+       // { name: "Dewalt Industrial Tools", image: "https://images.pexels.com/photos/1125137/pexels-photo-1125137.jpeg" },
+        { name: "Hand Tools - Wrenches, Screwdrivers, Hammers & Drills", image: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg" },
+       // { name: "Hammers & Striking Tools", image: "https://images.pexels.com/photos/1125137/pexels-photo-1125137.jpeg" },
+        { name: "Electric Drills & Drivers", image: "https://images.pexels.com/photos/46793/taps-thread-drill-milling-46793.jpeg" },
+       // { name: "Measuring & Testing Equipment", image: "https://images.pexels.com/photos/1125137/pexels-photo-1125137.jpeg" },
+        { name: "And Many More", image: "https://images.pexels.com/photos/30445637/pexels-photo-30445637.png" }
       ],
       mainImage: "https://images.pexels.com/photos/1125137/pexels-photo-1125137.jpeg"
     },
@@ -149,13 +150,13 @@ const Products: React.FC = () => {
       description: "Essential consumable materials for daily operations",
       items: [
         { name: "Industrial Adhesives & Sealants", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
-        { name: "Tapes & Bonding Materials", image: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg" },
-        { name: "Cleaning & Maintenance Products", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
-        { name: "Lubricants & Oils", image: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg" },
-        { name: "Safety & Marking Tapes", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
-        { name: "Packaging & Storage Materials", image: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg" },
-        { name: "Workshop Consumables", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
-        { name: "and Many More", image: "https://images.pexels.com/photos/4099467/pexels-photo-4099467.jpeg" }
+        { name: "Tapes & Bonding Materials", image: "https://images.pexels.com/photos/5691615/pexels-photo-5691615.jpeg" },
+        { name: "Cleaning & Maintenance Products", image: "https://images.pexels.com/photos/4440525/pexels-photo-4440525.jpeg" },
+       // { name: "Lubricants & Oils", image: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg" },
+       // { name: "Safety & Marking Tapes", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
+       // { name: "Packaging & Storage Materials", image: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg" },
+       // { name: "Workshop Consumables", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
+        { name: "And Many More", image: "https://images.pexels.com/photos/30445637/pexels-photo-30445637.png" }
       ],
       mainImage: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg"
     }
@@ -257,14 +258,8 @@ const Products: React.FC = () => {
                     </p>
                   </div>
                   
-                  <div className="mt-8 flex flex-col sm:flex-row gap-4">
-                    <button className="flex-1 bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                      Request Quote
-                    </button>
-                    <button className="flex-1 bg-gray-100 text-gray-700 py-3 px-6 rounded-lg font-semibold hover:bg-gray-200 transition-colors">
-                      Technical Specs
-                    </button>
-                  </div>
+                 
+                
                 </div>
               </div>
             </div>
