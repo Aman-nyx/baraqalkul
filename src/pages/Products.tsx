@@ -102,7 +102,7 @@ const Products: React.FC = () => {
       description: "Complete piping solutions for industrial systems",
       items: [
         { name: "PVC, CPVC, GI, SS fittings", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfA14IHfFVCipxL-tKFJOvbzUdwRZ7pzl_8g&s" },
-        //{ name: "GI (Galvanized Iron) Fittings", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
+        { name: "PPR and UPVC Pipes", image: "https://www.riifo.com/wp-content/uploads/2025/05/0K6A99561.jpg" },
         //{ name: "Stainless Steel Pipe Fittings", image: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg" },
         { name: "Industrial Valves, Couplings & Adapters", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
         //{ name: "Pipe Couplings & Adapters", image: "https://images.pexels.com/photos/8090008/pexels-photo-8090008.jpeg" },
@@ -120,8 +120,8 @@ const Products: React.FC = () => {
         { name: "Architectural Hardware", image: "https://images.pexels.com/photos/8487343/pexels-photo-8487343.jpeg" },
         { name: "Building Panels & Sheets", image: "https://images.pexels.com/photos/5089122/pexels-photo-5089122.jpeg" },
         { name: "Sealing & Weatherproofing", image: "https://images.pexels.com/photos/1915182/pexels-photo-1915182.jpeg" },
-       // { name: "Door & Window Fittings", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
-       // { name: "Decorative Fixtures", image: "https://images.pexels.com/photos/8090054/pexels-photo-8090054.jpeg" },
+        { name: "Glasses & Mirrors", image: "https://www.sagesoftware.co.in/wp-content/uploads/2016/02/Glass-Industry-Software.jpg" },
+       { name: "PIR Insulation", image: "https://cdn.greenmatch.co.uk/cdn-cgi/image/format=auto/2/2023/07/insulation-boards-installing.jpg" },
         { name: "Commercial-grade fittings and fixtures", image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg" },
        // { name: "Building Maintenance Supplies", image: "https://images.pexels.com/photos/8090054/pexels-photo-8090054.jpeg" },
         { name: "And Many More", image: "https://images.pexels.com/photos/30445637/pexels-photo-30445637.png" }

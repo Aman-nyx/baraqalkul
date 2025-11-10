@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MapPin, Phone, Mail, Linkedin, Instagram, Facebook } from 'lucide-react';
+import { MapPin, Phone, Mail } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -26,29 +26,6 @@ const Footer: React.FC = () => {
               Your trusted partner for oilfield and industrial materials in the UAE. 
               Quality products, reliable service, and technical expertise for industry professionals.
             </p>
-            <div className="flex space-x-4">
-              <a 
-                href="#" 
-                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a 
-                href="#" 
-                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-pink-600 transition-colors"
-                aria-label="Instagram"
-              >
-                <Instagram className="h-5 w-5" />
-              </a>
-              <a 
-                href="#" 
-                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors"
-                aria-label="Facebook"
-              >
-                <Facebook className="h-5 w-5" />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -68,13 +45,12 @@ const Footer: React.FC = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-[rgb(255,193,7)] mt-0.5 flex-shrink-0" />
                 <p className="text-gray-300 text-sm">
-                  Dubai, United Arab Emirates
+                  Baraq Al Kull Trading LLC,<br />
+                  Ajman-UAE,<br />
+                  TRN-105162773300003
                 </p>
               </div>
-              <div className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 text-[rgb(255,193,7)] flex-shrink-0" />
-                <p className="text-gray-300 text-sm">+971 XX XXX XXXX</p>
-              </div>
+              
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-[rgb(255,193,7)] flex-shrink-0" />
                 <p className="text-gray-300 text-sm">info@baraqalkull.com</p>
